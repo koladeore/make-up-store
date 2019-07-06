@@ -1,0 +1,90 @@
+body{
+ /* font-family : Arail, Helvetica, sans-serif;
+ font-size: 15px;
+ line-height: 1.5; */
+ font: 15px/1.5 Arail,Helvetica, sans-serif;
+ padding: 0;
+ margin: 0;
+ background-color: #eebdbd;
+}
+
+/* global */
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header {
+    background: #aca6a6ea;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 50px;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding {
+    float: left
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+header :hover a {
+   color: #cccccc;
+   font-weight: bold; 
+}
+/* showcase image */
+#showcase {
+    min-height: 500px;
+    background: url('./images/nav.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: #ffffff;
+}
+#showcase h1 {
+    font-size: 60px;
+    margin-top: 200px;
+    font-size: 50px;
+}
+#showcase p {
+    font-size: 30px;
+}
+#images {
+    margin-top: 20px;
+}
+#images .box{
+    float: right;
+    width: 30%;
+    padding: 0px;
+    text-align: center;
+}
+#images .box img{
+    width: 400px;
+}
+footer {
+    padding: 20px;
+    margin-top: 10px;
+    color: #ffffff;
+    background: #0c0c0c;
+    text-align: center;
+}
