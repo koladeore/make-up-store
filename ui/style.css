@@ -111,3 +111,42 @@ footer {
         width: 100%;
     }
 }
+/* sigup */
+.contain{
+    padding: 16px;
+    max-width: 350px;
+    margin: 60px auto 0 auto;
+    background: linear-gradient(#787ea1,#000033);
+    color: #fff;
+}
+h1{
+    text-align: center;
+}
+input[type=text],[type=email],input[type=password]{
+    width:90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-size: 17px;
+}
+button{
+    background: #4caf50;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 17px;
+}
+button:hover{
+    opacity: 1;
+    }
+    @media screen and (max-width:300px){
+    .signupbtn{
+    width: 100%;
+}
+}
