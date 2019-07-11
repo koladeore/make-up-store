@@ -4,6 +4,17 @@ body {
     padding: 0;
     background-color: #DCDCDD;
 }
+/* add button */
+#add-button button{
+    float: right;
+    margin: 20px;
+    font-size: 30px;
+    background: #0D0D0D;
+}
+.add-link{
+    text-decoration: none;
+    color: #f1f1f1;
+}
 section {
     width: 100%;
     margin: 0px;
@@ -54,4 +65,62 @@ h1{
     font-size: 20px;
     font-weight: 50px;
     color: #ffff;
+}
+
+/* update */
+.update-form {
+    width: 60%;
+    height: 250px;
+    color: #0B0C0D;
+    background: #FFA56E;
+    margin: 100px 0 0 300px;
+    box-shadow: 20px 0px 10px 0px rgba(0,0,0,0.3);
+    text-align: center;
+    font-size: 30px;
+}
+input[type=text],[type=number]{
+    width: 35%;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #0B0C0D;
+    border-radius: 10px;
+    background: #f1f1f1;
+}
+button{
+    border: none;
+    color: #ffffff;
+    background-color: #8C807D;
+    font-size: 20px;
+    font-weight: 50px;
+    border-radius: 5%;
+    width: 10%;
+}
+
+/* Add item */
+.add-form {
+    width: 60%;
+    height: 250px;
+    color: #0B0C0D;
+    background: #FFA56E;
+    margin: 100px 0 0 300px;
+    box-shadow: 20px 0px 10px 0px rgba(0,0,0,0.3);
+    text-align: center;
+    font-size: 30px;
+}
+input[type=text],[type=number]{
+    width: 35%;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #0B0C0D;
+    border-radius: 10px;
+    background: #f1f1f1;
+}
+button{
+    border: none;
+    color: #ffffff;
+    background-color: #8C807D;
+    font-size: 20px;
+    font-weight: 50px;
+    border-radius: 5%;
+    width: 10%;
 }
