@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="admin.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">MAKEUP</span> STORE</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="../front_end/index.html">HOME</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <div class="add-form">
         <form action="">
             <input type="file" enctype="multipart/form-data" id="file"><br>
@@ -15,7 +27,7 @@
             <input type="text" name="name" placeholder="product name"><br>
             <label for="price">Price</label>
             <input type="number" name="price" placeholder="price"><br>
-            <button>Add Item</button>
+            <button class="add-item"><a href="./index.html">Add item</a></button>
         </form>
     </div>
 </body>

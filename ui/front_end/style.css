@@ -84,12 +84,16 @@ header :hover a {
 }
 #images .box img{
     width: 300px;
-    height: 300px;
+    height: 250px;
 }
 #images .box button {
     width: 150px;
     height: 40px;
-    background: #000033
+    background: #000033;
+}
+#buy {
+    margin: -50px;
+    width: 20%;
 }
 #images .box h1{
     text-align: center;
@@ -144,12 +148,13 @@ input[type=text],[type=email],input[type=password]{
     background: #f1f1f1;
     font-size: 17px;
 }
-button{
-    background: #4caf50;
+button a{
+    background: #0c0c0c;
     color: #fff;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
+    text-decoration: none;
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
@@ -169,7 +174,7 @@ button:hover{
     padding: 16px;
     max-width: 350px;
     margin: 20px auto 0 auto;
-    background: linear-gradient(#787ea1,#000033);
+    background: #FFA56E;
     color: #fff;
 }
 h2{
@@ -185,7 +190,7 @@ input[type=email],input[type=password]{
     font-size: 17px;
 }
 button{
-    background: #4caf50;
+    background:  #0c0c0c;
     color: #fff;
     padding: 14px 20px;
     margin: 8px 0;

@@ -4,6 +4,56 @@ body {
     padding: 0;
     background-color: #DCDCDD;
 }
+/* nav */
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+   
+/* header */
+header {
+    background: #aca6a6ea;
+    color: #ffffff;
+    padding-top: 15px;
+    height: 60px;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding {
+    float: left
+}
+header #branding h1 {
+    margin: 15px;
+}
+header nav {
+    float: right;
+    margin-top: 25px;
+}
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+.highlight{
+    font-style: italic;
+    font-family: initial;
+}
+header :hover a {
+    color: #cccccc;
+    font-weight: bold; 
+}
 /* add button */
 #add-button button{
     float: right;
@@ -13,6 +63,7 @@ body {
 }
 .add-link{
     text-decoration: none;
+    border: none;
     color: #f1f1f1;
 }
 section {
@@ -31,7 +82,7 @@ h1{
 .main-table {
     background-color: #FFA56E;
     box-shadow: 20px 0px 10px 0px rgba(0,0,0,0.3);
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 50px;
 }
 .main-table tr th{
@@ -47,8 +98,13 @@ h1{
     font-size: 30px;
     margin: 0;
 }
+.main-table tr td:hover{
+    color: #8C807D;
+    opacity: 2;
+}
 
 .admin-image{
+    border-radius: 25%;
     width: 150px;
     height: 100px;
     padding: -90px 0 2px 0;
@@ -86,8 +142,9 @@ input[type=text],[type=number]{
     border-radius: 10px;
     background: #f1f1f1;
 }
-button{
+.update a{
     border: none;
+    text-decoration: none;
     color: #ffffff;
     background-color: #8C807D;
     font-size: 20px;
@@ -115,6 +172,15 @@ input[type=text],[type=number]{
     border-radius: 10px;
     background: #f1f1f1;
 }
+.add-item a{
+    color: #ffffff;
+    background-color: #8C807D;
+    font-size: 20px;
+    font-weight: 50px;
+    border-radius: 5%;
+    width: 10%;
+    text-decoration: none;
+}
 button{
     border: none;
     color: #ffffff;
@@ -122,5 +188,5 @@ button{
     font-size: 20px;
     font-weight: 50px;
     border-radius: 5%;
-    width: 10%;
+    width: 10%;  
 }
