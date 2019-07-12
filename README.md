@@ -11,7 +11,7 @@ makeover Store app which enable users to get their makeup anywhere they are
 * A store owner can view all items in the Stores.
 
 ## UI TEMPLATE
-UI Template for the application can be found here [Github pages] 'https://koladeore.github.io/make-up-store/'
+UI Template for the application can be found here [Github pages] 'https://koladeore.github.io/make-up-store/ui/front_end/index.html'
 
 ## Pivotal Tracker
 
