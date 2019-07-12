@@ -73,7 +73,7 @@ section {
 .full-table{
     font-size: 25px;
 }
-h1{
+h2{
     color: #0D0D0D;
     font-weight: 50px;
     padding-top: -80px;
@@ -189,4 +189,75 @@ button{
     font-weight: 50px;
     border-radius: 5%;
     width: 10%;  
+}
+
+/* responsive */
+
+@media(max-width:1200px){
+    header #branding, header nav, header nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+        height: 90px;
+    }
+    #add-button button{
+        float: right;
+        margin: 10px;
+        font-size: 25px;
+        width: 30%;
+    }
+    h2{
+        margin: 20px;
+        font-size: 20px;
+        width: 40%;
+    }
+    .main-table {
+        margin: 5px;
+        padding: 0;
+        width: 95%;
+        height: 580px;
+    }
+    .main-table tr th{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+    .main-table tr td{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+    .admin-image{
+        border-radius: 10%;
+        width: 150px;
+        height: 80px;
+        padding: 0;
+    }
+    .add-form {
+        width: 70%;
+        height: 250px;
+        margin: 60px;
+        text-align: center;
+        font-size: 15px;
+    }
+    input[type=text],[type=number]{
+        width: 45%;
+        padding: 10px;
+        margin: 20px;
+        background: #f1f1f1;
+    }
+    button{
+        width: 25%;
+    }
+    .update-form {
+        width: 70%;
+        height: 250px;
+        margin: 60px;
+        text-align: center;
+        font-size: 15px;
+    }
 }
